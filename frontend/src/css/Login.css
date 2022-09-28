@@ -1,0 +1,34 @@
+.Login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:5%;
+}
+form{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.login_input{
+    justify-content: space-around;
+    margin: 20px;
+    font-size:14pt;
+    width:100%;
+    height:100%;
+    flex-grow: 1;
+    /* border-radius: 15%; */
+}
+.login_butt{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: maroon;
+    border-radius: 30%;
+    width:80px;
+    height:40px;
+}
+.register{
+    text-decoration: none;
+    color: antiquewhite;
+}

@@ -1,0 +1,28 @@
+.nav{
+    background-color: rgba(64, 23, 23, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-radius: 25px;
+    margin: 1% 2%;
+    text-decoration: none;
+    
+}
+.nav a{
+    text-decoration: none;
+    padding: 2rem;
+    color: whitesmoke;
+}
+.nav ul{
+    
+    display: flex;
+    color: inherit;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}

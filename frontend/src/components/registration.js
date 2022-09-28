@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "../App.css";
+
 const registration = () => {
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
